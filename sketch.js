@@ -25,9 +25,23 @@ const soups = [
   "Chicken and White Bean",
 
   "Potato Soup",
+  
+  "Corn Chowder",
+  
+  "Italian Sausage Soup", 
 ];
 
-const tacos = ["Ghetto Fish", "Turkey", "Dr Pepper Pork", "Carne Asada"];
+const tacos = [
+  "Ghetto Fish", 
+  
+  "Turkey", 
+  
+  "Dr Pepper Pork", 
+  
+  "Carne Asada",
+  
+  "Chicken",
+];
 
 const classics = [
   "Beef Stroke-me-off",
@@ -55,6 +69,18 @@ const classics = [
   "Chicken and Broccoli Pasta",
 
   "Pork Chops",
+  
+  "Salmon Bowls",
+  
+  "Butter Chicken",
+  
+  "Broccoli Beef",
+  
+  "Goulash",
+  
+  "Burgers",
+  
+  "Breakfast",
 ];
 
 const especiales = [
@@ -66,13 +92,21 @@ const especiales = [
 
   "Salmon",
 
-  "Breakfast",
-
   "Baked Hot Wings",
 
   "Seafood Boil",
 
   "Chicken Tawook",
+  
+  "Turkey Dinner",
+  
+  "Chicken and Dumplings",
+  
+  "BBQ Chicken Pizza",
+  
+  "Chicken Parmainiana",
+  
+  "Ribs", 
 ];
 
 const easyMeals = [
@@ -85,6 +119,12 @@ const easyMeals = [
   "TJs Potstickers",
 
   "TJs Pizza",
+  
+  "MAXX Chicken Bowls",
+  
+  "Turkey Wraps",
+  
+  "BLTs"
 ];
 
 const snacks = [
@@ -99,6 +139,14 @@ const snacks = [
   "Spam Masube",
 
   "Chive and Onion Dip",
+  
+  "Chicken Salad",
+  
+  "Charcuterie",
+  
+  "Pop Corn",
+  
+  "Potato Skins",
 ];
 
 soupsBtnElement.addEventListener('click', function shuffleList() {
@@ -144,4 +192,3 @@ snacksBtnElement.addEventListener('click', function shuffleList() {
 function testingSnacks() {
   demoElement.innerHTML = snacks[0] + ", " + snacks[1] + ", " + snacks[2]
 }
-
